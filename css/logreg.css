@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background-color: #2c3338;
+	color: #606468;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input, select {
+	border: none;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after { clear: both; }
+
+/* ---------- LOGIN ---------- */
+
+#register, #login 
+{
+	margin: 50px auto;
+	width: 280px;
+}
+#entry
+{
+	margin: 50px auto;
+	width: 370px;
+}
+
+#home
+{
+	margin: 70px auto 0 auto;
+	width: 80px;
+}
+
+#register form span, #login form span
+{
+	background-color: #363b41;
+	border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	color: #606468;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+#entry form span
+{
+	background-color: #363b41;
+	border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	color: #606468;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 140px;
+}
+
+#register form input, #login form input, #entry form input
+{
+	height: 50px;
+	outline:none;
+}
+
+#entry form select
+{
+	height: 50px;
+	background-color: #3b4148;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: #606468;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 230px;
+}
+
+#register form input[type="text"], input[type="password"], input[type="email"] 
+{
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: #606468;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 198px;
+}
+
+#login form input[type="text"], input[type="password"], input[type="email"] 
+{
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: #606468;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 198px;
+}
+
+#entry form input[type="text"], input[type="password"], input[type="email"] 
+{
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: #606468;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 198px;
+}
+
+#register form input:focus, #login form input:focus, #entry form input:focus 
+{
+	color:#fff;
+}
+
+#register form input[type="submit"], #login form input[type="submit"]
+{
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #ea4c88;
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	cursor:pointer;
+	width: 280px;
+}
+
+#entry form input[type="submit"]
+{
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #ea4c88;
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	cursor:pointer;
+	width: 200px;
+}
+
+#lastp
+{
+	text-align:center;
+}
+
+.notlogin, .submit_success
+{
+	margin: 200px auto;
+	text-align: center;
+}
+.notlogin span, .submit_success span
+{
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 30px;
+	color: #fff;
+}
+.notlogin p
+{
+	padding-top: 20px;
+}
+
+#register form input[type="submit"]:hover, #login form input[type="submit"]:hover, #entry form input[type="submit"]:hover   
+{
+	background-color: #d44179;
+}
+
+#register > p, #login > p, #entry > p
+{
+	text-align: center;
+}
+
+#register > p span, #login > p span, #entry > p span  
+{
+	padding-left: 5px;
+}
