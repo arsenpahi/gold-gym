@@ -69,7 +69,7 @@
 		<div id="gallery" class="box">
 			<div class="container">
 				<h2 class="title">Notre galerie</h2>
-				<p class="descr">Voici nos salles pour l'entraînement physique.</p>
+				<p class="descr">Voici nos salles pour l'entraînement physique</p>
 				
 				<div class="images">
 					<img src="img/gallery1.jpg" alt=""/>
