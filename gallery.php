@@ -68,7 +68,7 @@
 		
 		<div id="gallery" class="box">
 			<div class="container">
-				<h2 class="title">Our gallery</h2>
+				<h2 class="title">Notre galerie</h2>
 				<p class="descr">Thus looks our halls for training</p>
 				
 				<div class="images">
