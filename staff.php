@@ -67,8 +67,8 @@
 		
 		<div id="team" class="box">
 			<div class="container">
-				<h2 class="title">Our amazing team</h2>
-				<p class="descr">We present you our team of professionals</p>
+				<h2 class="title">Notre équipe étonnante</h2>
+				<p class="descr">Nous vous présentons notre équipe de professionnels</p>
 				<div class="team-wrap clearfix">
 					<div class="team-item">
 						<img src="img/arsen.jpg" height="220" width="220" alt="">
