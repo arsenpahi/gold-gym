@@ -93,10 +93,10 @@
 				<p>
 					<span>Choisissez l'abonnement:</span>
 					<select name="abonementName">
-						<option>One time</option>
-						<option>8 tr. per month</option>
-						<option>12 tr. per month</option>
-						<option>Bezlim</option>
+						<option>Une fois</option>
+						<option>8 fois par mois</option>
+						<option>12 fois par mois</option>
+						<option>Illimité</option>
 					</select>
 				</p>
 				<p>
